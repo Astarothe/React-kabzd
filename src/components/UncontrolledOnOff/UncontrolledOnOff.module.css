@@ -1,0 +1,20 @@
+.buttonOn {
+    background-color: green;
+}
+
+.buttonOff {
+    background-color: red;
+}
+
+.buttonCircleRed {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: red;
+}
+.buttonCircleGreen {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: green;
+}

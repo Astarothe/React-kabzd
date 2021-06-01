@@ -1,11 +1,11 @@
-import s from "./UncontrolledOnOff.module.css";
+import s from "./OnOff.module.css";
 import {useState} from "react";
 
 type OnOffPropsType = {
     setOnOffValue: (value:boolean) => void
 }
 
-export function UncontrolledOnOff(props:OnOffPropsType) {
+export function OnOff(props:OnOffPropsType) {
 
     let [on, setOn] = useState(false);
 
