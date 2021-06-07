@@ -1,11 +1,12 @@
-import s from "./OnOff.module.css";
+import s from "./UncontrolledOnOff.module.css";
 import {useState} from "react";
 
-type OnOffPropsType = {
-    setOnOffValue: (value:boolean) => void
+export type UncontrolledOnOffPropsType = {
+    // setOnOffValue: (value:boolean) => void
+    onChange: (on: boolean) => void
 }
 
-export function OnOff(props:OnOffPropsType) {
+export function UncontrolledOnOff(props: UncontrolledOnOffPropsType) {
 
     let [on, setOn] = useState(false);
 
@@ -36,10 +37,21 @@ export function OnOff(props:OnOffPropsType) {
         marginLeft: "5px",
         backgroundColor: on ? "green" : "red"
     };
+
+    const onClicked = () => {
+        setOn(true)
+        props.onChange(true)
+    }
+    const offClicked = () => {
+        setOn(false)
+        props.onChange(false)
+    }
     return (
         <div>
-            <div style={onStyle} onClick={() => props.setOnOffValue(true)}>on</div>
-            <div style={offStyle} onClick={() => props.setOnOffValue(false)}> off</div>
+            <div style={onStyle} onClick={() => onClicked}>on
+            </div>
+            <div style={offStyle} onClick={() => offClicked}> off
+            </div>
             <div style={indicatorStyle}></div>
 
             {/*{props.button && <button className={s.buttonOn}>on</button>}*/}
