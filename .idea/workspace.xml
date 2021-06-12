@@ -2,27 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3a048c-4d7d-473e-bd36-f0cbc85c7bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating/Rating.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncontrolledAccordion.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledOnOff/UncontrolledOnOff.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/1-Button.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stories/Input.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledAccordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledAccordion/UncotontrolledAccordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledOnOff/UncontrolledOnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledOnOff/UncontrolledOnOff.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Select" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -51,11 +48,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\it-incubator\react-kabzda\kabzda\src\components\Select" />
       <recent name="D:\it-incubator\react-kabzda\kabzda\src\stories" />
       <recent name="D:\it-incubator\react-kabzda\kabzda\src\components\UncontrolledOnOff" />
       <recent name="D:\it-incubator\react-kabzda\kabzda\src\components\UncontrolledAccordion" />
       <recent name="D:\it-incubator\react-kabzda\kabzda\src\components\OnOff" />
-      <recent name="D:\it-incubator\react-kabzda\kabzda\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\it-incubator\react-kabzda\kabzda\src\components\UncontrolledOnOff" />
@@ -103,7 +100,8 @@
       <workItem from="1622892558629" duration="647000" />
       <workItem from="1622911978678" duration="70000" />
       <workItem from="1622976987321" duration="14019000" />
-      <workItem from="1623064079043" duration="6358000" />
+      <workItem from="1623064079043" duration="6579000" />
+      <workItem from="1623497967116" duration="9551000" />
     </task>
     <servers />
   </component>
