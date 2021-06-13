@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {Story} from '@storybook/react';
 import {Select, SelectPropsType} from "./Select";
+import {action} from "@storybook/addon-actions";
 
 export default {
     title: "Select",
@@ -8,38 +9,41 @@ export default {
 };
 
 const Template: Story<SelectPropsType> = (args) => {
-
     return (
         <Select {...args} />
     )
 }
 
-export const SelectedTwo = () => {
-    const [title,setTitle] = useState("Dimych");
-    const [on, setOn] = useState<boolean>(true)
-
-    const massive = [{title: "Dimych", value:1 }, {title: "Victor", value:2 }]
-    const onChangeHandler = (id: number) => {
-        const name = massive.find(i => i.value === id);
-        if(name){
-            setTitle(name.title)
-            setOn(!on)
-        }
-    }
-    const onClickTitleHandler = () => {
-
-    }
+export const WithValue = () => {
+    const [value, setValue] = useState("2");
+    const onChange = (val:string) => setValue(val)
 
     return (
-        <Select value={title} onChange={onChangeHandler} items={massive}  on={on} setOn={setOn}/>
+        <Select onChange={onChange}
+            value={value}
+                items={[
+                    {title: "Minsk", value: "1"},
+                    {title: "Moscow", value: "2"},
+                    {title: "Kiev", value: "3"},
+                ]}/>
+    )
+};
+
+
+export const WithoutValue = () => {
+    const [value, setValue] = useState(null);
+    const onChange = (val:any ) => setValue(val)
+
+    return (
+        <Select onChange={onChange}
+                value={value}
+                items={[
+                    {title: "Minsk", value: "1"},
+                    {title: "Moscow", value: "2"},
+                    {title: "Kiev", value: "3"},
+                ]}/>
     )
 }
-
-
-
-
-
-
 
 
 // const Selected = Template.bind({});

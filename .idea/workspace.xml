@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3a048c-4d7d-473e-bd36-f0cbc85c7bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/Select.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/Select.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +99,8 @@
       <workItem from="1622911978678" duration="70000" />
       <workItem from="1622976987321" duration="14019000" />
       <workItem from="1623064079043" duration="6579000" />
-      <workItem from="1623497967116" duration="9551000" />
+      <workItem from="1623497967116" duration="12633000" />
+      <workItem from="1623580442328" duration="7359000" />
     </task>
     <servers />
   </component>
