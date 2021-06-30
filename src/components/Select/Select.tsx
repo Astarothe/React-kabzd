@@ -17,11 +17,11 @@ export type SelectPropsType = {
 export function Select(props: SelectPropsType) {
     const [value, setValue] = useState(null);
     const onChange = (val: any) => setValue(val)
-    console.log(value + " value")
+    console.log(props.filter + " rendering")
 
 
     const [active, setActive] = useState(false);
-    const [hoveredElementValue, setHoveredElementValue] = useState(value);
+    const [hoveredElementValue, setHoveredElementValue] = useState<string | null>(value);
 
     const selectorItem = props.items.find(i => i.value === value);
     const hoveredItem = props.items.find(i => i.value === hoveredElementValue);

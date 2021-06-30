@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useMemo, useState} from 'react';
 import {Story} from '@storybook/react';
 import {Select, SelectPropsType} from "./Select";
 import {action} from "@storybook/addon-actions";
@@ -47,12 +47,13 @@ const Template: Story<SelectPropsType> = (args) => {
 // }
 
 export const Example = () => {
+    let [counter, setCounter] = useState(0);
 
-    const select = [
+    const [select, setSelect] =useState([
         {id: 1, filter: "string"},
         {id: 2, filter: "country"},
         {id: 3, filter: "count"},
-    ]
+    ])
     const [title, setTitle] = useState({
         [select[0].id]:
             [{title: "Minsk", value: "1", country: 1, count: 1000},
@@ -80,32 +81,40 @@ export const Example = () => {
             ]
     })
 
-
-    return (
-        <div className={s.wrapper}>
-            {select.map(t => {
-                let newTitle = title[1];
-                if (t.filter === "string") {
-                    newTitle = title[t.id].filter(t => t.title.indexOf("o") > -1)
-                    console.log(newTitle)
-                }
-                if (t.filter === "country") {
-                    newTitle = title[t.id].filter(t => t.country < 2)
-                }
-                if (t.filter === "count") {
-                    newTitle = title[t.id].filter(t => t.count > 1000)
-                }
-
-                return <Select
-                    key={t.id}
-                    items={newTitle}
-                    filter={t.filter}/>
-            })}
+    const Selected = React.memo(Select)
 
 
-        </div>
+const Selecters = useMemo(() => {
+    return select.map(t => {
+        let newTitle = title[0]
+        if (t.filter === "string") {
+            newTitle = title[t.id].filter(t => t.title.indexOf("o") > -1)
+        }
+        if (t.filter === "country") {
+            newTitle = title[t.id].filter(t => t.country < 2)
+        }
+        if (t.filter === "count") {
+            newTitle = title[t.id].filter(t => t.count > 1000)
+        }
 
-    )
+        return <Selected
+            key={t.id}
+            items={newTitle}
+            filter={t.filter}/>
+    })
+}, [select])
+console.log(Selecters)
+
+return (
+    <div className={s.wrapper}>
+        {counter}
+        <button onClick={() => setCounter(counter + 1)}></button>
+        {Selecters}
+
+
+    </div>
+
+)
 }
 
 // <Select onChange={onChange}
