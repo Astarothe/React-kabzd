@@ -15,4 +15,7 @@
     background-color: blue;
     color:white;
 }
-
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
