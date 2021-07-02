@@ -110,8 +110,6 @@ return (
         {counter}
         <button onClick={() => setCounter(counter + 1)}></button>
         {Selecters}
-
-
     </div>
 
 )

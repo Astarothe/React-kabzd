@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce3a048c-4d7d-473e-bd36-f0cbc85c7bf4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/Select.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/Select.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="ce3a048c-4d7d-473e-bd36-f0cbc85c7bf4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React-todo/TodoListTraining" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -107,7 +102,7 @@
       <workItem from="1623580442328" duration="8150000" />
       <workItem from="1624462927885" duration="1360000" />
       <workItem from="1624881128398" duration="5851000" />
-      <workItem from="1625048055235" duration="11160000" />
+      <workItem from="1625048055235" duration="11363000" />
     </task>
     <servers />
   </component>
