@@ -27,9 +27,7 @@ export function Select(props: SelectPropsType) {
     const hoveredItem = props.items.find(i => i.value === hoveredElementValue);
     console.log(selectorItem)
 
-    useEffect(() => (
-        setHoveredElementValue(value)
-    ), [value])
+    useEffect(() => (setHoveredElementValue(value)), [value])
 
     const toggleItems = () => setActive(!active);
     const onItemClick = (value: any) => {
@@ -62,16 +60,16 @@ export function Select(props: SelectPropsType) {
     }
 
     return (
-        <div >
+        <div>
             <div className={s.select} onKeyUp={onKeyUp} tabIndex={0}>
                 <span className={s.main} onClick={toggleItems}> {selectorItem && selectorItem.title} </span>
                 {
                     active &&
                     <div className={s.items}>
-                        {props.items.map(i =>{
+                        {props.items.map(i => {
 
 
-                           return <div
+                            return <div
                                 onMouseEnter={() => setHoveredElementValue(i.value)}
                                 className={s.item + " " + (hoveredItem === i ? s.selected : "")}
                                 key={i.value}

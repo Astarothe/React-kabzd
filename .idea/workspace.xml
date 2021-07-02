@@ -36,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../React-todo/TodoListTraining" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -103,6 +103,7 @@
       <workItem from="1624462927885" duration="1360000" />
       <workItem from="1624881128398" duration="5851000" />
       <workItem from="1625048055235" duration="11363000" />
+      <workItem from="1625232792208" duration="254000" />
     </task>
     <servers />
   </component>
