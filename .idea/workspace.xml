@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce3a048c-4d7d-473e-bd36-f0cbc85c7bf4" name="Default Changelist" comment="" />
+    <list default="true" id="ce3a048c-4d7d-473e-bd36-f0cbc85c7bf4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UseMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseMemo.storiesUseCallback.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +106,9 @@
       <workItem from="1624462927885" duration="1360000" />
       <workItem from="1624881128398" duration="5851000" />
       <workItem from="1625048055235" duration="11363000" />
-      <workItem from="1625232792208" duration="254000" />
+      <workItem from="1625232792208" duration="708000" />
+      <workItem from="1625308838886" duration="149000" />
+      <workItem from="1625309138485" duration="2987000" />
     </task>
     <servers />
   </component>
