@@ -27,3 +27,18 @@ export const SimpleExample = () => {
     </>
 }
 
+export const SetTimeoutExample = () => {
+    const [counter, setCounter] = useState(1)
+
+    useEffect(() => {
+        setInterval(() => {
+            setCounter(state => state + 1)
+        }, 1000)
+
+    }, []);
+
+    return <>
+        Hello, counter: {counter}
+    </>
+}
+
