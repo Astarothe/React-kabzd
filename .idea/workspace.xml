@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce3a048c-4d7d-473e-bd36-f0cbc85c7bf4" name="Default Changelist" comment="" />
+    <list default="true" id="ce3a048c-4d7d-473e-bd36-f0cbc85c7bf4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/Clock.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +40,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/stories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -106,7 +110,8 @@
       <workItem from="1625232792208" duration="708000" />
       <workItem from="1625308838886" duration="149000" />
       <workItem from="1625309138485" duration="3708000" />
-      <workItem from="1625563208783" duration="2733000" />
+      <workItem from="1625563208783" duration="3509000" />
+      <workItem from="1625821689291" duration="1046000" />
     </task>
     <servers />
   </component>
