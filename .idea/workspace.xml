@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce3a048c-4d7d-473e-bd36-f0cbc85c7bf4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/Clock.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Clock/Clock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/UseEffect.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,8 @@
       <workItem from="1625308838886" duration="149000" />
       <workItem from="1625309138485" duration="3708000" />
       <workItem from="1625563208783" duration="3509000" />
-      <workItem from="1625821689291" duration="1046000" />
+      <workItem from="1625821689291" duration="1344000" />
+      <workItem from="1626084751060" duration="3201000" />
     </task>
     <servers />
   </component>
